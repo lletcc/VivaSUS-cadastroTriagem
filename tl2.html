@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+  margin: 0;
+  height: 100vh;
+  position: relative;}
+
+            .img1, .img2 .img3{
+                position: absolute;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 100px;
+                height: 100px;
+            }
+            .img1 {
+  top: 20%;
+  left: 1%;
+  background-image: url('/assets/Saúde\ Médico\ Consultório\ Hospital\ Azul\ Logo\ Logotipo\ \(3\)\ 3.png');
+}
+
+.img2 {
+  top: 300px;
+  right: 1%;
+  width: 100px;
+  height: 200px;
+  background-image: url('/assets/Saúde\ Médico\ Consultório\ Hospital\ Azul\ Logo\ Logotipo\ \(3\)\ 3.png');
+    
+}
+
+.img3 {
+  
+  left: 2%;
+  bottom: 2%;
+  background-image: url('/assets/Saúde\ Médico\ Consultório\ Hospital\ Azul\ Logo\ Logotipo\ \(3\)\ 3.png');
+}
+.containerTeleConsulta{
+    
+    background-color: #e2dcdc;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 5% 10%;
+   
+    
+    
+}
+    </style>
+</head>
+<body >
+    <header class="navBar">
+        <img src="assets/Saúde Médico Consultório Hospital Azul Logo Logotipo (2).png" alt="Logo vivaSUS">
+    </header>
+    
+    <div class="img1"></div>
+    <div class="img2"></div>
+    <div class="img3"></div>
+    
+    <div class="containerTeleConsulta"> <!-- imagens e fundo branco -->
+        <div class="textoApresentacaoTeleConsulta"> 
+            <h2 style="font-weight: normal;"> O VivaSUS é um site gratuito desenvolvido para ajudar usuários
+            do SUS no monitoramento de doenças crônicas como diabetes, hipertensão e obesidade. 
+            Nosso objetivo é prevenir complicações, facilitar o cuidado contínuo e 
+            </h2>
+
+            <div class="dadosBusca">
+                <div class="dadosBuscaCpf">
+                    <label for="cpf" class="dadosBuscaCpfLabel">CPF</label>
+                    <input type="text" name="" id="cpf" placeholder="000-000-000-00" class="dadosBuscaCpfInput">
+                </div>
+                
+                
+                <div class="dadosBuscaCartaoSus">
+                    <label for="cartaoSus" class="dadosBuscaCsLabel">N° do cartão do SUS</label>
+                    <input type="text" name="" id="cartaoSus" placeholder=" value" class="dadosBuscaCsInput">
+                </div>
+            </div>
+            
+            <button class="buttonTeleConsulta">Buscar</button>
+        </div>
+
+    </div>
+    
+    <img src="assets/Saúde Médico Consultório Hospital Azul Logo Logotipo (3) 3.png" alt="" class="imagens">
+    
+</body>
+</html>
